@@ -2,4 +2,4 @@
 
 ## Aulas
 
-1.  Lidando com o método require;
+1.  Lidando com o método require e objetos;
