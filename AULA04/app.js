@@ -14,6 +14,7 @@ fs.writeFile("./logs2.log", log, { flag: "a+" }, (erro) => {
 console.log("Arquivo criado com sucesso");
 
 //Exclusão de arquivos
-// fs.rmSync("./logs.log");
-fs.unlinkSync("./logs.log");
-console.log("Arquivo removido");
+fs.rmSync("./logs.log");
+console.log("Arquivo removido pelo rmSync");
+fs.unlinkSync("./logs2.log");
+console.log("Arquivo removido pelo unlinkSync");
